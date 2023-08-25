@@ -18,7 +18,7 @@ apply plugin: 'kotlin'
 apply plugin: 'application'
 apply plugin: 'kotlinx-serialization'
 
-group 'xorum.io'
+group 'spenceredgecombe.com'
 version '1.0.0'
 
 sourceCompatibility = 1.8

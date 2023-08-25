@@ -1,6 +1,6 @@
 {
-  "name": "Ktor template",
-  "description": "Ktor template",
+  "name": "FanCast",
+  "description": "FanCast Backend",
   "image": "heroku/java",
   "addons": []
 }
