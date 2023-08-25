@@ -11,7 +11,7 @@ import org.jetbrains.exposed.sql.SchemaUtils.create
 
 object DatabaseFactory {
 
-    private const val defaultJdbcUrl = ""
+    private const val defaultJdbcUrl = "jdbc:postgresql://localhost:5432/<dbName>?user=<userName>&password=<password>&reWriteBatchedInserts=true"
 
     fun init() {
         Database.connect(hikari())
